@@ -4,7 +4,34 @@ console.log(
 );
 
 // Exercise 1
-
+const firstName = "Clifford";
+let lastName = "Myrtil" ;
+var age = 24;
 // Exercise 2
-
+lastName = "";
+age = 25;
 // Exercise 3
+let language = "JavaScript";
+let createdYear = "1995";
+let isCaseSensitive = true;
+
+
+console.log(`${language} was first released in ${createdYear}.`)
+
+let product = "T-Shirt"
+let price = 19.99;
+let isOnSale = false;
+let salePercentage = 15;
+let stock = 0;
+let instock = false;
+let selectedSize = "M";
+
+console.log(`${product} in size ${selectedSize} is $${price} with ${stock} in stock.`);
+
+let title = "Name of the Wind";
+let author = "Patrick Rothfuss";
+let pageCount = 722;
+let bookmark = "456";
+let hasRead = true;
+
+console.log(`${title} by ${author} is ${pageCount} pages long. Your last bookmarked page was ${bookmark}`)
